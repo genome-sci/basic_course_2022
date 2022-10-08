@@ -1,2 +1,6 @@
-# basic_course_2022
-PAGS/DDBJ bioinformatics workshop 2022
+# PAGS・DDBJ　2022年度情報解析講習会 (初級者版)
+- 会場　ハイブリッド開催（Onsite & Online Hybrid） Zoom使用
+      国立遺伝学研究所（DDBJ）W棟4階会議室
+- 日時　2022年10月20日（木）　12：40～17：20（予定）
+
+事前準備 
