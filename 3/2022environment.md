@@ -101,7 +101,7 @@ wgetで直接入手
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
 
-または1.で入手したインストールスクリプトをFileZillaで　`/home/tools/` にコピー
+または1.で入手したインストールスクリプトをFileZillaで　`/アカウント名/tools/` にコピー
 
 **6. ハッシュ値を確認**
 
