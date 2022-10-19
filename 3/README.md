@@ -43,6 +43,7 @@ Singularity (Apptainer) はスパコン版のコンテナ (遺伝研スパコン
 - (コンテナの場合) ブラックボックスになってしまいがち
 - (パッケージ管理ツールの場合) いろいろ入れているうちにcondaそのものが壊れてしまうこともある
 
+<div style="page-break-before:always"></div>
 
 ## 3. RNA-seq解析環境
 
@@ -91,6 +92,7 @@ mkdir tools
 ```
 cd tools
 ```
+<div style="page-break-before:always"></div>
 
 **5. インストールスクリプトをスパコンにコピー**
 
@@ -141,6 +143,8 @@ Miniconda3 will now be installed into this location:
 [/home/アカウント名/miniconda3] >>> /home/アカウント名/tools/miniconda3
 ```
 
+<div style="page-break-before:always"></div>
+
 個別パッケージのインストールが終了すると `conda init` を実行するかどうか聞かれるので `yes` と入力
 ```
 WARNING:
@@ -183,6 +187,7 @@ nodeはいまログインしているノード (`at137`など) 、directoryは�
 ```
 conda list
 ```
+<div style="page-break-before:always"></div>
 
 - conda-forge channelの追加(パッケージの取得元をconda-forge優先にする)
 
@@ -204,8 +209,23 @@ conda config --get channels
 
 - その他設定 (今回は行いません)
 
+** condaのupdate
+```
+conda update -n base conda
+```
+`conda 4.14.0 -> 22.9.0`にupdateするとプロンプトの表示がおかしくなる場合がある
+
+そのときは
+```
+conda init bash
+```
+を実行し、シェルを再度立ち上げる（exit ->再度qlogin）と表示が元に戻る
+
+[conda 22.9.0 breaks bash command prompt · Issue #11885 · conda/conda](https://github.com/conda/conda/issues/11885)
+
 ** baseが表示されるのが嫌な時は　https://ja.stackoverflow.com/questions/61630/anacondaでbaseが自動的にactivateされるのを防ぎたい などを参考に `~/.condarc` でconfigrationを設定する
 
+<div style="page-break-before:always"></div>
 
 ### 3-1-2. 仮想環境の作成
 
@@ -253,6 +273,8 @@ conda create -n pags_rnaseq
 conda activate pags_rnaseq
 ```
 
+<div style="page-break-before:always"></div>
+
 プロンプトに
 
 ```
@@ -274,6 +296,8 @@ conda deactivate
 ```
 
 と表示されていることを確認
+
+<div style="page-break-before:always"></div>
 
 ### 3-1-3. 解析ツールのインストール
 
@@ -327,6 +351,8 @@ conda install -c bioconda stringtie=2.2.1 -y
 
 `-y` をつけると途中でインストールの可否(yes/no)を聞かれずにそのまま進む
 
+<div style="page-break-before:always"></div>
+
 インストールができていることを確認
 
 ```
@@ -370,6 +396,8 @@ conda deactivate
 ```
 
 と表示されていることを確認
+
+<div style="page-break-before:always"></div>
 
 ## 3-2. Singularityコンテナ
 
