@@ -160,9 +160,9 @@ ec2.sh
 ```
 #!/bin/bash
 hoge=(1 2 a b)
-echo $hoge[0]
-echo $hoge[@]
-echo $hoge[$1]
+echo ${hoge[0]}
+echo ${hoge[@]}
+echo ${hoge[$1]}
 ```
 
 2. 遺伝研スパコン上で下記のコマンドを実行  
@@ -171,9 +171,9 @@ echo $hoge[$1]
 
 3. コードの解説  
 `hoge=(1 2 a b)` は、配列hogeに1,2,a,bをまとめて代入  
-`$hoge[0]` は、配列hogeの0番目の値を表示  
-`$hoge[@]` は、配列hogeの全ての値を表示  
-`$hoge[$1]` は、配列hogeの引数1個目で指定された値を表示  
+`${hoge[0]}` は、配列hogeの0番目の値を表示  
+`${hoge[@]}` は、配列hogeの全ての値を表示  
+`${hoge[$1]}` は、配列hogeの引数1個目で指定された値を表示  
 　  
 ### コメントと改行
 
