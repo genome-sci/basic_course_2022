@@ -209,6 +209,20 @@ conda config --get channels
 
 - その他設定 (今回は行いません)
 
+** condaのupdate
+```
+conda update -n base conda
+```
+`conda 4.14.0 -> 22.9.0`にupdateするとプロンプトの表示がおかしくなる場合がある
+
+そのときは
+```
+conda init bash
+```
+を実行し、シェルを再度立ち上げる（exit ->再度qlogin）と表示が元に戻る
+
+[conda 22.9.0 breaks bash command prompt · Issue #11885 · conda/conda](https://github.com/conda/conda/issues/11885)
+
 ** baseが表示されるのが嫌な時は　https://ja.stackoverflow.com/questions/61630/anacondaでbaseが自動的にactivateされるのを防ぎたい などを参考に `~/.condarc` でconfigrationを設定する
 
 <div style="page-break-before:always"></div>
