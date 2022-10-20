@@ -11,5 +11,5 @@
     2. 14:10~15:05　[シェルスクリプト（担当：森　宙史）](https://github.com/genome-sci/basic_course_2022/tree/main/2)
     - 15:05~15:15　休憩
     2. 15:15~15:30　[バッチジョブ（担当：森　宙史）](https://github.com/genome-sci/basic_course_2022/tree/main/2)
-    3. 15:30~16:10　[解析環境の構築（担当：坂本　美佳）](https://github.com/genome-sci/basic_course_2022/tree/main/3)
-    4. 16:10~17:20　[遺伝研スパコンでの解析の実践（RNA-seq解析）（担当：望月　孝子）](https://github.com/genome-sci/basic_course_2022/tree/main/4)
+    3. 15:30~16:20　[解析環境の構築（担当：坂本　美佳）](https://github.com/genome-sci/basic_course_2022/tree/main/3)
+    4. 16:20~17:20　[遺伝研スパコンでの解析の実践（RNA-seq解析）（担当：望月　孝子）](https://github.com/genome-sci/basic_course_2022/tree/main/4)
