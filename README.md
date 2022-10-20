@@ -10,6 +10,6 @@
     1. 12:45~14:10　[遺伝研スパコンの利用方法、UNIX基本コマンド（担当：谷澤　靖洋）](https://github.com/genome-sci/basic_course_2022/tree/main/1)
     2. 14:10~15:05　[シェルスクリプト（担当：森　宙史）](https://github.com/genome-sci/basic_course_2022/tree/main/2)
     - 15:05~15:15　休憩
-    2. 15:15~15:20　[バッチジョブ（担当：森　宙史）](https://github.com/genome-sci/basic_course_2022/tree/main/2)
-    3. 15:20~16:10　[解析環境の構築（担当：坂本　美佳）](https://github.com/genome-sci/basic_course_2022/tree/main/3)
+    2. 15:15~15:30　[バッチジョブ（担当：森　宙史）](https://github.com/genome-sci/basic_course_2022/tree/main/2)
+    3. 15:30~16:10　[解析環境の構築（担当：坂本　美佳）](https://github.com/genome-sci/basic_course_2022/tree/main/3)
     4. 16:10~17:20　[遺伝研スパコンでの解析の実践（RNA-seq解析）（担当：望月　孝子）](https://github.com/genome-sci/basic_course_2022/tree/main/4)
