@@ -28,6 +28,7 @@ batch1.sh
 #$ -cwd
 sleep 7
 hostname > hos.txt
+
 ```
 
 2. TeraTerm or ターミナル等を用いてsshで遺伝研スパコンにログインし、qlogin後、下記のコマンドを実行  
