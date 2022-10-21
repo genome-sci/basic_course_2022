@@ -35,6 +35,7 @@ times1.sh
 date
 sleep 7
 date
+
 ```
 
 2. TeraTerm or ターミナル等を用いてsshで遺伝研スパコンにログインし、qlogin後、下記のコマンドを実行  
@@ -61,6 +62,7 @@ date
 sleep $v
 f=`date`
 echo $f
+
 ```
 
 2. 遺伝研スパコン上で下記のコマンドを実行  
@@ -87,6 +89,7 @@ date
 echo "You specified $# variable(s)."
 sleep $1
 date
+
 ```
 
 2. 遺伝研スパコン上で下記のコマンドを実行  
@@ -113,6 +116,7 @@ if [ $# -ne 1 ]; then
 fi
 sleep $1
 date
+
 ```
 
 2. 遺伝研スパコン上で下記のコマンドを実行  
@@ -139,6 +143,7 @@ for i in 1 2 a b
 do
   echo $i
 done
+
 ```
 
 2. 遺伝研スパコン上で下記のコマンドを実行  
@@ -159,6 +164,7 @@ for i in *.fasta;do
 v=`grep -c '>' "$i"`
 echo $i $v
 done
+
 ```
 
 
@@ -175,6 +181,7 @@ hoge=(1 2 a b)
 echo ${hoge[0]}
 echo ${hoge[@]}
 echo ${hoge[$1]}
+
 ```
 
 2. 遺伝研スパコン上で下記のコマンドを実行  
@@ -202,6 +209,7 @@ sleep $1 #$1 is a specific value
 date
 echo \
 $1
+
 ```
 
 2. 遺伝研スパコン上で下記のコマンドを実行  
